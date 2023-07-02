@@ -12,21 +12,23 @@
 
     <title>Login Modal</title>
   </head>
-  <body>
+  <body class="font-sans text-gray-600">
     <!-- Container -->
     <div class="flex justify-center items-center min-h-screen bg-teal-400">
       <!-- Login Modal -->
       <div class="shadow-xl">
         <!-- Content Container -->
         <section class="py-12 px-24 bg-white rounded-lg">
-          <h1 class="font-bold text-3xl mb-8">Log In</h1>
-          <p class="text-slate-400 mb-16 max-w-[40ch]">
+          <h1 class="font-bold text-3xl mb-8 font-mono text-gray-900">
+            Log In
+          </h1>
+          <p class="mb-16 max-w-[40ch]">
             Log in to your account to upload or download pictures, videos or
             music
           </p>
           <form class="flex" action="">
             <input
-              class="border mb-16 flex-1 border-slate-400 border-dotted p-5 rounded-lg"
+              class="border mb-16 flex-1 border-slate-300 p-5 rounded-lg focus:outline focus:outline-teal-400"
               type="email"
               name="email"
               placeholder="Enter your email adress"
@@ -35,7 +37,7 @@
           </form>
 
           <div class="flex items-center justify-between mb-12">
-            <a class="text-blue-400" href="#">Forgot Password?</a>
+            <a class="text-blue-400 font-semibold" href="#">Forgot Password?</a>
             <button
               class="font-bold bg-teal-500 text-white rounded-lg inline-flex px-10 py-5 gap-4 items-center"
             >
