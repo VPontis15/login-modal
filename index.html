@@ -16,7 +16,7 @@
     <!-- Container -->
     <div class="flex justify-center items-center min-h-screen bg-teal-400">
       <!-- Login Modal -->
-      <div class="shadow-xl grid lg:grid-cols-2 relative">
+      <div class="shadow-xl m-4 grid lg:grid-cols-2 relative">
         <!-- Content Container -->
         <section class="py-12 px-24 bg-white rounded-l-lg">
           <h1 class="font-bold text-4xl mb-8 font-mono text-gray-800">
@@ -24,7 +24,7 @@
           </h1>
           <p class="mb-16 max-w-[40ch]">
             Log in to your account to upload or download pictures, videos or
-            music
+            music.
           </p>
           <form class="flex" action="">
             <input
@@ -36,7 +36,9 @@
             />
           </form>
 
-          <div class="flex items-center justify-between mb-12">
+          <div
+            class="flex flex-wrap items-center justify-center gap-12 md:gap-0 md:justify-between mb-12"
+          >
             <a class="text-blue-400 font-semibold" href="#">Forgot Password?</a>
             <button
               class="font-bold bg-teal-500 text-white rounded-lg inline-flex px-10 py-5 gap-4 items-center"
@@ -60,7 +62,7 @@
           <!-- Buttons Row -->
           <div class="grid sm:grid-cols-2 gap-4 mb-10">
             <button
-              class="border border-slate-300 rounded-lg inline-flex items-center px-4 py-2 gap-4"
+              class="border border-slate-300 rounded-lg inline-flex items-center justify-center px-4 py-2 gap-4"
             >
               <img
                 class="w-10"
@@ -70,7 +72,7 @@
               <p class="text-gray-400">Facebook</p>
             </button>
             <button
-              class="border border-slate-300 rounded-lg inline-flex items-center px-4 py-2 gap-4"
+              class="border border-slate-300 rounded-lg inline-flex items-center justify-center px-4 py-2 gap-4"
             >
               <img class="w-9" src="images/google.png" alt="logo of Google" />
               <p class="text-gray-400">Google</p>
@@ -80,7 +82,7 @@
         <!-- Bg-image -->
         <div
           style="background-image: url(images/image.jpg)"
-          class="hidden lg:block bg-teal-300 rounded-r-lg mix-blend-multiply"
+          class="hidden lg:block max-w-full bg-teal-300 rounded-r-lg mix-blend-multiply"
         ></div>
         <button
           class="bg-white rounded-full padding-4 absolute top-8 right-12 z-40"
