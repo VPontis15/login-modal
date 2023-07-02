@@ -12,5 +12,72 @@
 
     <title>Login Modal</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Container -->
+    <div class="flex justify-center items-center min-h-screen bg-teal-400">
+      <!-- Login Modal -->
+      <div class="shadow-xl">
+        <!-- Content Container -->
+        <section class="py-12 px-24 bg-white rounded-lg">
+          <h1 class="font-bold text-3xl mb-8">Log In</h1>
+          <p class="text-slate-400 mb-16 max-w-[40ch]">
+            Log in to your account to upload or download pictures, videos or
+            music
+          </p>
+          <form class="flex" action="">
+            <input
+              class="border mb-16 flex-1 border-slate-400 border-dotted p-5 rounded-lg"
+              type="email"
+              name="email"
+              placeholder="Enter your email adress"
+              id="email"
+            />
+          </form>
+
+          <div class="flex items-center justify-between mb-12">
+            <a class="text-blue-400" href="#">Forgot Password?</a>
+            <button
+              class="font-bold bg-teal-500 text-white rounded-lg inline-flex px-10 py-5 gap-4 items-center"
+            >
+              Next
+              <svg
+                fill="#fff"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path d="M24 12l-10-10v7h-14v6h14v7z" />
+              </svg>
+            </button>
+          </div>
+
+          <!-- Line -->
+          <div class="border border-gray-200 max-w-full mb-8"></div>
+          <p class="text-center text-gray-400 mb-8">Or log in with</p>
+          <!-- Buttons Row -->
+          <div class="grid grid-cols-2 gap-4 mb-10">
+            <button
+              class="border border-slate-300 rounded-lg inline-flex items-center px-4 py-2 gap-4"
+            >
+              <img
+                class="w-10"
+                src="images/facebook.png"
+                alt="logo of facebook"
+              />
+              <p class="text-gray-400">Facebook</p>
+            </button>
+            <button
+              class="border border-slate-300 rounded-lg inline-flex items-center px-4 py-2 gap-4"
+            >
+              <img class="w-9" src="images/google.png" alt="logo of Google" />
+              <p class="text-gray-400">Google</p>
+            </button>
+          </div>
+        </section>
+        <!-- Bg-image -->
+        <div></div>
+      </div>
+    </div>
+  </body>
 </html>
